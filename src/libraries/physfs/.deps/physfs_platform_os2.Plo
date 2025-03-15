@@ -1,0 +1,4 @@
+libraries/physfs/physfs_platform_os2.lo: \
+ libraries/physfs/physfs_platform_os2.c \
+ libraries/physfs/physfs_platforms.h
+libraries/physfs/physfs_platforms.h:

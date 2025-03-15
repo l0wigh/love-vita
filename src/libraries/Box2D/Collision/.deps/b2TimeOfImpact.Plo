@@ -1,0 +1,105 @@
+libraries/Box2D/Collision/b2TimeOfImpact.lo: \
+ libraries/Box2D/Collision/b2TimeOfImpact.cpp \
+ libraries/Box2D/Collision/b2Collision.h libraries/Box2D/Common/b2Math.h \
+ libraries/Box2D/Common/b2Settings.h \
+ /usr/local/vitasdk/lib/gcc/arm-vita-eabi/10.3.0/include/stddef.h \
+ /usr/local/vitasdk/arm-vita-eabi/include/assert.h \
+ /usr/local/vitasdk/arm-vita-eabi/include/_ansi.h \
+ /usr/local/vitasdk/arm-vita-eabi/include/newlib.h \
+ /usr/local/vitasdk/arm-vita-eabi/include/_newlib_version.h \
+ /usr/local/vitasdk/arm-vita-eabi/include/sys/config.h \
+ /usr/local/vitasdk/arm-vita-eabi/include/machine/ieeefp.h \
+ /usr/local/vitasdk/arm-vita-eabi/include/sys/features.h \
+ /usr/local/vitasdk/arm-vita-eabi/include/bits/posix_opt.h \
+ /usr/local/vitasdk/lib/gcc/arm-vita-eabi/10.3.0/include-fixed/limits.h \
+ /usr/local/vitasdk/lib/gcc/arm-vita-eabi/10.3.0/include/float.h \
+ /usr/local/vitasdk/arm-vita-eabi/include/c++/10.3.0/math.h \
+ /usr/local/vitasdk/arm-vita-eabi/include/c++/10.3.0/cmath \
+ /usr/local/vitasdk/arm-vita-eabi/include/c++/10.3.0/arm-vita-eabi/bits/c++config.h \
+ /usr/local/vitasdk/arm-vita-eabi/include/c++/10.3.0/arm-vita-eabi/bits/os_defines.h \
+ /usr/local/vitasdk/arm-vita-eabi/include/c++/10.3.0/arm-vita-eabi/bits/cpu_defines.h \
+ /usr/local/vitasdk/arm-vita-eabi/include/c++/10.3.0/bits/cpp_type_traits.h \
+ /usr/local/vitasdk/arm-vita-eabi/include/c++/10.3.0/ext/type_traits.h \
+ /usr/local/vitasdk/arm-vita-eabi/include/math.h \
+ /usr/local/vitasdk/arm-vita-eabi/include/sys/reent.h \
+ /usr/local/vitasdk/arm-vita-eabi/include/_ansi.h \
+ /usr/local/vitasdk/arm-vita-eabi/include/sys/_types.h \
+ /usr/local/vitasdk/arm-vita-eabi/include/machine/_types.h \
+ /usr/local/vitasdk/arm-vita-eabi/include/machine/_default_types.h \
+ /usr/local/vitasdk/arm-vita-eabi/include/sys/lock.h \
+ /usr/local/vitasdk/arm-vita-eabi/include/sys/cdefs.h \
+ /usr/local/vitasdk/arm-vita-eabi/include/c++/10.3.0/bits/std_abs.h \
+ /usr/local/vitasdk/arm-vita-eabi/include/stdlib.h \
+ /usr/local/vitasdk/arm-vita-eabi/include/machine/stdlib.h \
+ libraries/Box2D/Collision/b2Distance.h \
+ libraries/Box2D/Collision/b2TimeOfImpact.h \
+ libraries/Box2D/Collision/Shapes/b2CircleShape.h \
+ libraries/Box2D/Collision/Shapes/b2Shape.h \
+ libraries/Box2D/Common/b2BlockAllocator.h \
+ libraries/Box2D/Collision/Shapes/b2PolygonShape.h \
+ libraries/Box2D/Common/b2Timer.h \
+ /usr/local/vitasdk/arm-vita-eabi/include/stdio.h \
+ /usr/local/vitasdk/lib/gcc/arm-vita-eabi/10.3.0/include/stdarg.h \
+ /usr/local/vitasdk/arm-vita-eabi/include/sys/types.h \
+ /usr/local/vitasdk/arm-vita-eabi/include/sys/_stdint.h \
+ /usr/local/vitasdk/arm-vita-eabi/include/sys/select.h \
+ /usr/local/vitasdk/arm-vita-eabi/include/sys/_sigset.h \
+ /usr/local/vitasdk/arm-vita-eabi/include/sys/_timeval.h \
+ /usr/local/vitasdk/arm-vita-eabi/include/sys/timespec.h \
+ /usr/local/vitasdk/arm-vita-eabi/include/sys/_timespec.h \
+ /usr/local/vitasdk/arm-vita-eabi/include/sys/_pthreadtypes.h \
+ /usr/local/vitasdk/arm-vita-eabi/include/sys/sched.h \
+ /usr/local/vitasdk/arm-vita-eabi/include/machine/types.h \
+ /usr/local/vitasdk/arm-vita-eabi/include/sys/stdio.h
+libraries/Box2D/Collision/b2Collision.h:
+libraries/Box2D/Common/b2Math.h:
+libraries/Box2D/Common/b2Settings.h:
+/usr/local/vitasdk/lib/gcc/arm-vita-eabi/10.3.0/include/stddef.h:
+/usr/local/vitasdk/arm-vita-eabi/include/assert.h:
+/usr/local/vitasdk/arm-vita-eabi/include/_ansi.h:
+/usr/local/vitasdk/arm-vita-eabi/include/newlib.h:
+/usr/local/vitasdk/arm-vita-eabi/include/_newlib_version.h:
+/usr/local/vitasdk/arm-vita-eabi/include/sys/config.h:
+/usr/local/vitasdk/arm-vita-eabi/include/machine/ieeefp.h:
+/usr/local/vitasdk/arm-vita-eabi/include/sys/features.h:
+/usr/local/vitasdk/arm-vita-eabi/include/bits/posix_opt.h:
+/usr/local/vitasdk/lib/gcc/arm-vita-eabi/10.3.0/include-fixed/limits.h:
+/usr/local/vitasdk/lib/gcc/arm-vita-eabi/10.3.0/include/float.h:
+/usr/local/vitasdk/arm-vita-eabi/include/c++/10.3.0/math.h:
+/usr/local/vitasdk/arm-vita-eabi/include/c++/10.3.0/cmath:
+/usr/local/vitasdk/arm-vita-eabi/include/c++/10.3.0/arm-vita-eabi/bits/c++config.h:
+/usr/local/vitasdk/arm-vita-eabi/include/c++/10.3.0/arm-vita-eabi/bits/os_defines.h:
+/usr/local/vitasdk/arm-vita-eabi/include/c++/10.3.0/arm-vita-eabi/bits/cpu_defines.h:
+/usr/local/vitasdk/arm-vita-eabi/include/c++/10.3.0/bits/cpp_type_traits.h:
+/usr/local/vitasdk/arm-vita-eabi/include/c++/10.3.0/ext/type_traits.h:
+/usr/local/vitasdk/arm-vita-eabi/include/math.h:
+/usr/local/vitasdk/arm-vita-eabi/include/sys/reent.h:
+/usr/local/vitasdk/arm-vita-eabi/include/_ansi.h:
+/usr/local/vitasdk/arm-vita-eabi/include/sys/_types.h:
+/usr/local/vitasdk/arm-vita-eabi/include/machine/_types.h:
+/usr/local/vitasdk/arm-vita-eabi/include/machine/_default_types.h:
+/usr/local/vitasdk/arm-vita-eabi/include/sys/lock.h:
+/usr/local/vitasdk/arm-vita-eabi/include/sys/cdefs.h:
+/usr/local/vitasdk/arm-vita-eabi/include/c++/10.3.0/bits/std_abs.h:
+/usr/local/vitasdk/arm-vita-eabi/include/stdlib.h:
+/usr/local/vitasdk/arm-vita-eabi/include/machine/stdlib.h:
+libraries/Box2D/Collision/b2Distance.h:
+libraries/Box2D/Collision/b2TimeOfImpact.h:
+libraries/Box2D/Collision/Shapes/b2CircleShape.h:
+libraries/Box2D/Collision/Shapes/b2Shape.h:
+libraries/Box2D/Common/b2BlockAllocator.h:
+libraries/Box2D/Collision/Shapes/b2PolygonShape.h:
+libraries/Box2D/Common/b2Timer.h:
+/usr/local/vitasdk/arm-vita-eabi/include/stdio.h:
+/usr/local/vitasdk/lib/gcc/arm-vita-eabi/10.3.0/include/stdarg.h:
+/usr/local/vitasdk/arm-vita-eabi/include/sys/types.h:
+/usr/local/vitasdk/arm-vita-eabi/include/sys/_stdint.h:
+/usr/local/vitasdk/arm-vita-eabi/include/sys/select.h:
+/usr/local/vitasdk/arm-vita-eabi/include/sys/_sigset.h:
+/usr/local/vitasdk/arm-vita-eabi/include/sys/_timeval.h:
+/usr/local/vitasdk/arm-vita-eabi/include/sys/timespec.h:
+/usr/local/vitasdk/arm-vita-eabi/include/sys/_timespec.h:
+/usr/local/vitasdk/arm-vita-eabi/include/sys/_pthreadtypes.h:
+/usr/local/vitasdk/arm-vita-eabi/include/sys/sched.h:
+/usr/local/vitasdk/arm-vita-eabi/include/machine/types.h:
+/usr/local/vitasdk/arm-vita-eabi/include/sys/stdio.h:

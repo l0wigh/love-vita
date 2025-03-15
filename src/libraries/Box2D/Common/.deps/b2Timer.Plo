@@ -1,0 +1,26 @@
+libraries/Box2D/Common/b2Timer.lo: libraries/Box2D/Common/b2Timer.cpp \
+ libraries/Box2D/Common/b2Timer.h libraries/Box2D/Common/b2Settings.h \
+ /usr/local/vitasdk/lib/gcc/arm-vita-eabi/10.3.0/include/stddef.h \
+ /usr/local/vitasdk/arm-vita-eabi/include/assert.h \
+ /usr/local/vitasdk/arm-vita-eabi/include/_ansi.h \
+ /usr/local/vitasdk/arm-vita-eabi/include/newlib.h \
+ /usr/local/vitasdk/arm-vita-eabi/include/_newlib_version.h \
+ /usr/local/vitasdk/arm-vita-eabi/include/sys/config.h \
+ /usr/local/vitasdk/arm-vita-eabi/include/machine/ieeefp.h \
+ /usr/local/vitasdk/arm-vita-eabi/include/sys/features.h \
+ /usr/local/vitasdk/arm-vita-eabi/include/bits/posix_opt.h \
+ /usr/local/vitasdk/lib/gcc/arm-vita-eabi/10.3.0/include-fixed/limits.h \
+ /usr/local/vitasdk/lib/gcc/arm-vita-eabi/10.3.0/include/float.h
+libraries/Box2D/Common/b2Timer.h:
+libraries/Box2D/Common/b2Settings.h:
+/usr/local/vitasdk/lib/gcc/arm-vita-eabi/10.3.0/include/stddef.h:
+/usr/local/vitasdk/arm-vita-eabi/include/assert.h:
+/usr/local/vitasdk/arm-vita-eabi/include/_ansi.h:
+/usr/local/vitasdk/arm-vita-eabi/include/newlib.h:
+/usr/local/vitasdk/arm-vita-eabi/include/_newlib_version.h:
+/usr/local/vitasdk/arm-vita-eabi/include/sys/config.h:
+/usr/local/vitasdk/arm-vita-eabi/include/machine/ieeefp.h:
+/usr/local/vitasdk/arm-vita-eabi/include/sys/features.h:
+/usr/local/vitasdk/arm-vita-eabi/include/bits/posix_opt.h:
+/usr/local/vitasdk/lib/gcc/arm-vita-eabi/10.3.0/include-fixed/limits.h:
+/usr/local/vitasdk/lib/gcc/arm-vita-eabi/10.3.0/include/float.h:

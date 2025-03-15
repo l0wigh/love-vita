@@ -1,0 +1,4 @@
+libraries/physfs/physfs_platform_qnx.lo: \
+ libraries/physfs/physfs_platform_qnx.c \
+ libraries/physfs/physfs_platforms.h
+libraries/physfs/physfs_platforms.h:

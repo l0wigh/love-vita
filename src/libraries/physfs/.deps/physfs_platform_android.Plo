@@ -1,0 +1,4 @@
+libraries/physfs/physfs_platform_android.lo: \
+ libraries/physfs/physfs_platform_android.c \
+ libraries/physfs/physfs_platforms.h
+libraries/physfs/physfs_platforms.h:

@@ -1,0 +1,4 @@
+libraries/noise1234/simplexnoise1234.lo: \
+ libraries/noise1234/simplexnoise1234.cpp \
+ libraries/noise1234/simplexnoise1234.h
+libraries/noise1234/simplexnoise1234.h:

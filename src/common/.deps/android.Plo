@@ -1,0 +1,5 @@
+common/android.lo: common/android.cpp common/android.h common/config.h \
+ ../config.h
+common/android.h:
+common/config.h:
+../config.h:

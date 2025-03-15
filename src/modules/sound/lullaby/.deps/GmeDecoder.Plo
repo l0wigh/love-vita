@@ -1,0 +1,4 @@
+modules/sound/lullaby/GmeDecoder.lo: modules/sound/lullaby/GmeDecoder.cpp \
+ common/config.h ../config.h
+common/config.h:
+../config.h:

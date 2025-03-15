@@ -1,0 +1,4 @@
+common/utf8.lo: common/utf8.cpp common/utf8.h common/config.h ../config.h
+common/utf8.h:
+common/config.h:
+../config.h:
