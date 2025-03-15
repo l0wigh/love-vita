@@ -4,7 +4,9 @@ This port was made by the help of [isage LÖVE-Vita 11.4](https://github.com/isa
 
 ## Build instructions
 
-You obviously needs to have VitaSDK installed on your system
+You obviously needs to have VitaSDK installed on your system.
+
+You also needs to build modified SDL2 for VitaSDK. Use [vita-packages-extra](https://github.com/isage/vita-packages-extra/) and install `pvr_psp2`, `gl4es` and `sdl2_pvr`.
 
 Use `build-vita.sh`. The build will fail at some point.
 
