@@ -8,9 +8,7 @@ You obviously needs to have VitaSDK installed on your system.
 
 You also needs to build modified SDL2 for VitaSDK. Use [vita-packages-extra](https://github.com/isage/vita-packages-extra/) and install `pvr_psp2`, `gl4es` and `sdl2_pvr`.
 
-Use `build-vita.sh`. The build will fail at some point.
-
-Use this command `grep -rlZ "lpthread" . | xargs -0 sed -i 's/-lpthread//g'; make` to continue the building process
+Use `build-vita.sh`. This will produce a `love.self` which is the `eboot.bin` that you need to put in your VPK.
 
 ## Credits
 
